@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keylogger demo</title>
+    <script >
+      document.addEventListener('keydown', (e)=>{
+      console.log(e.key);
+	    //console.log(e.code);
+  });
+    </script>
+    <h1>Log in</h1>
+    <form action="/action_page.php">
+        <label for="email">E-mail</label>
+        <input type="text" id="email"><br><br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" ><br><br>
+        <input type="submit" value="Login">
+      </form>
+</head>
+<body>
+    
+</body>
+</html>
