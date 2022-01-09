@@ -1,0 +1,18 @@
+{
+  "name": "q1",
+  "version": "1.0.0",
+  "main": "6288144_sec2_q1.js",
+  "scripts": {
+    "start": "nodemon keylogger.js"
+  },
+  "author": "Pasakorn Wongtala, Section2, 6288144",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}

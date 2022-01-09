@@ -22,7 +22,7 @@ router.get('/', function(req, res) {
 //     const fname = req.body.name;
 //     const Uemail = req.body.email;
 //     const Utxt = req.body.messages;
-//     res.send(`<h1>Greeting <mark style="background-color:#D5BBE0">${fname}</mark></h1> <p>The following message has been received: <mark style="background-color: #99D3F9">${Utxt}</mark> We will contact you via <mark style="background-color: #AFF466">${Uemail}</mark></p>`);
+//     res.send(`<h1>Greeting </p>`);
 //    });
    
 router.use((req, res, next) => {
